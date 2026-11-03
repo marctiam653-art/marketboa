@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /commande
+Disallow: /favoris
+
+Sitemap: https://www.mboa-atelier.example/sitemap.xml

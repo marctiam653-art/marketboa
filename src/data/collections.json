@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "aura",
+    "name": "Aura",
+    "tagline": "La lumière de l'or et de l'améthyste",
+    "description": "Des bijoux pensés comme des talismans du quotidien : perles d'améthyste, tissage de perles et touches de laiton doré, montés à la main à Foumban.",
+    "intro": "Aura réunit les bijoux d'Esther Mbarga. Chaque pièce est montée perle par perle, sur un fil renforcé, et signée d'un petit nœud d'or caché près du fermoir.",
+    "image": "/images/collections/aura",
+    "imageAlt": "Perles d'améthyste et laiton doré posées sur un tissu sombre, collection Aura (image d'illustration)",
+    "featured": true
+  },
+  {
+    "slug": "oceane",
+    "name": "Océane",
+    "tagline": "Bleus et verts nés du verre recyclé",
+    "description": "Vases, carafes et bijoux dans toutes les nuances de la mer : du verre de récupération soufflé à Dar es Salaam et des perles aux reflets de lagon.",
+    "intro": "Les couleurs d'Océane ne sont pas ajoutées : elles viennent des bouteilles collectées puis refondues. Chaque pièce garde les bulles et les irrégularités du souffle.",
+    "image": "/images/collections/oceane",
+    "imageAlt": "Vase et coupelles en verre bleu-vert recyclé sur une table en bois, collection Océane (image d'illustration)",
+    "featured": true
+  },
+  {
+    "slug": "terre",
+    "name": "Terre",
+    "tagline": "Le bois, la cire et le coton tissé",
+    "description": "Mobilier sculpté et textiles tissés de Bonwire : des pièces chaudes, solides, faites pour durer et se patiner avec le temps.",
+    "intro": "La collection Terre rassemble le travail de Kwame Asante : bois sculpté, finitions à la cire d'abeille et bandes de coton tissées sur métier étroit.",
+    "image": "/images/collections/terre",
+    "imageAlt": "Tabouret en bois sculpté et écharpe en bandes tissées dans un intérieur chaleureux, collection Terre (image d'illustration)",
+    "featured": true
+  }
+]

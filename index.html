@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!--
+      viewport-fit=cover : indispensable pour que env(safe-area-inset-bottom) fonctionne
+      (encoche / barre gestuelle des iPhone et Android). Pas de user-scalable=no : le zoom
+      doit rester possible (accessibilité WCAG 1.4.4).
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0f0f0f" />
+    <meta name="color-scheme" content="dark" />
+
+    <!-- SEO par défaut : chaque page remplace title + description via le hook useDocumentMeta -->
+    <title>Mboa Atelier – Artisanat africain fait main, pièces uniques</title>
+    <meta
+      name="description"
+      content="Bijoux en perles d'améthyste, verre recyclé soufflé, sculpture sur bois et tissages : découvrez des pièces uniques d'artisanat africain, avec le nom et l'histoire de chaque artisan."
+    />
+    <link rel="canonical" href="https://www.mboa-atelier.example/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph / Twitter : aperçu lors du partage sur les réseaux -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Mboa Atelier" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:title" content="Mboa Atelier – Artisanat africain fait main" />
+    <meta
+      property="og:description"
+      content="Pièces uniques d'artisanat africain : chaque objet raconte l'histoire de celui ou celle qui l'a fait."
+    />
+    <meta property="og:image" content="https://www.mboa-atelier.example/images/og-default.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!--
+      Données structurées Schema.org « Organization » (exigence SEO).
+      Le schéma « Product » est injecté dynamiquement sur chaque page produit (voir ProductDetail.jsx).
+    -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Mboa Atelier",
+        "url": "https://www.mboa-atelier.example/",
+        "logo": "https://www.mboa-atelier.example/favicon.svg",
+        "description": "Boutique en ligne d'artisanat africain : bijoux, verrerie, sculpture sur bois et textiles faits main par des artisans identifiés.",
+        "email": "contact@mboa-atelier.example",
+        "sameAs": []
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Message de secours si JavaScript est désactivé -->
+    <noscript>
+      <p style="padding: 1rem; font-family: sans-serif">
+        Mboa Atelier a besoin de JavaScript pour afficher la boutique. Vous pouvez aussi nous écrire sur WhatsApp.
+      </p>
+    </noscript>
+
+    <!-- type="module" est différé par défaut (équivalent de defer) : le HTML n'est pas bloqué -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

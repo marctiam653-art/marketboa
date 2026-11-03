@@ -1,0 +1,53 @@
+[
+  {
+    "id": "esther-mbarga",
+    "name": "Esther Mbarga",
+    "craft": "Perlage et bijouterie",
+    "region": "Foumban, région de l'Ouest",
+    "country": "Cameroun",
+    "yearsOfPractice": 22,
+    "portrait": "/images/artisans/esther-mbarga",
+    "portraitAlt": "Portrait d'Esther Mbarga, perlière à Foumban, dans son atelier (image d'illustration)",
+    "quote": "Une perle seule ne dit rien. C'est le fil, la patience et la main qui lui donnent une voix.",
+    "summary": "Perlière depuis plus de vingt ans, Esther monte des colliers et des bijoux à partir de pierres choisies une à une.",
+    "story": [
+      "Esther a appris le perlage à neuf ans, assise entre sa grand-mère et sa mère, dans la cour familiale de Foumban. Elle y a retenu les gestes avant les mots : comment tendre le fil, comment compter à l'oreille, comment reconnaître une pierre qui « chante » sous le doigt.",
+      "Aujourd'hui, elle travaille avec quatre apprenties, toutes formées dans son atelier. Elle achète ses perles d'améthyste à des tailleurs malgaches avec lesquels elle collabore depuis dix ans, et refuse tout lot dont elle ne connaît pas l'origine.",
+      "Chaque collier est signé d'un petit nœud d'or caché près du fermoir : c'est la marque de l'atelier, et la preuve que la pièce est passée entre ses mains."
+    ]
+  },
+  {
+    "id": "juma-mwinyi",
+    "name": "Juma Mwinyi",
+    "craft": "Verre recyclé soufflé",
+    "region": "Dar es Salaam",
+    "country": "Tanzanie",
+    "yearsOfPractice": 15,
+    "portrait": "/images/artisans/juma-mwinyi",
+    "portraitAlt": "Portrait de Juma Mwinyi, souffleur de verre à Dar es Salaam, devant son four (image d'illustration)",
+    "quote": "Le verre a déjà vécu une première fois. Mon travail, c'est de lui offrir une seconde vie, plus belle.",
+    "summary": "Juma transforme les bouteilles collectées dans les quartiers de Dar es Salaam en vases et en carafes soufflés à la main.",
+    "story": [
+      "Juma a commencé comme collecteur de bouteilles. Un souffleur de verre de passage lui a montré comment une bouteille brisée pouvait redevenir une bulle de lumière, et il n'a plus quitté le four.",
+      "Son atelier récupère chaque mois près de deux cents kilos de verre, trié par couleur. Les teintes bleues et vertes de la collection Océane viennent directement des bouteilles d'origine : rien n'est teinté artificiellement.",
+      "Comme le verre est refondu et soufflé à la main, aucune pièce n'est identique. Les petites bulles que vous verrez ne sont pas des défauts : elles sont la trace du souffle."
+    ]
+  },
+  {
+    "id": "kwame-asante",
+    "name": "Kwame Asante",
+    "craft": "Sculpture sur bois et tissage de bandes",
+    "region": "Bonwire, région d'Ashanti",
+    "country": "Ghana",
+    "yearsOfPractice": 30,
+    "portrait": "/images/artisans/kwame-asante",
+    "portraitAlt": "Portrait de Kwame Asante, sculpteur et tisserand à Bonwire, entouré de ses outils (image d'illustration)",
+    "quote": "Le bois garde la mémoire de l'arbre. Je me contente d'écouter ce qu'il veut devenir.",
+    "summary": "Sculpteur et tisserand, Kwame travaille le bois local et les bandes de coton tissées sur métier étroit.",
+    "story": [
+      "À Bonwire, on tisse depuis des générations des bandes étroites de coton, assemblées ensuite en grandes pièces. Kwame a grandi devant ces métiers, mais c'est le bois qui l'a attiré : à quinze ans, il sculptait déjà ses premiers tabourets.",
+      "Il n'utilise que du bois issu d'arbres tombés naturellement ou de plantations gérées, et replante pour chaque pièce vendue. Les finitions se font à la cire d'abeille, sans vernis chimique.",
+      "Avec son frère tisserand, il a imaginé des pièces qui réunissent ses deux savoir-faire : des sacs et des écharpes en bandes tissées, ornés de détails de bois sculpté."
+    ]
+  }
+]

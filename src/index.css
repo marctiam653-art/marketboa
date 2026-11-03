@@ -1,0 +1,112 @@
+/* src/index.css
+   Styles globaux : directives Tailwind + quelques règles de base et composants réutilisables. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ */
+/* BASE : règles appliquées aux balises HTML nues                      */
+/* ------------------------------------------------------------------ */
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%; /* évite l'agrandissement automatique du texte en paysage sur iOS */
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink font-sans text-sand antialiased;
+    /* min-h-dvh : hauteur « dynamique » (tient compte de la barre d'adresse mobile) */
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+
+  /* Titres : police serif (Playfair Display) ; le corps de texte reste en Inter */
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif;
+  }
+
+  /*
+    FOCUS VISIBLE (accessibilité WCAG 2.4.7) : on ne supprime JAMAIS l'outline.
+    Anneau doré clair de 3px, avec un décalage pour rester lisible sur les fonds sombres comme dorés.
+  */
+  :focus-visible {
+    outline: 3px solid #f2c94c;
+    outline-offset: 3px;
+  }
+
+  /*
+    iOS Safari zoome automatiquement sur les champs dont la police fait moins de 16px.
+    On impose donc 16px minimum sur tous les champs de saisie.
+  */
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+
+  /*
+    prefers-reduced-motion : si l'utilisateur a demandé moins d'animations dans son système,
+    on neutralise transitions, animations et défilement doux.
+  */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* COMPOSANTS : classes réutilisables (évite de répéter les mêmes utilitaires) */
+/* ------------------------------------------------------------------ */
+@layer components {
+  /* Conteneur de page : marges latérales croissantes mobile → tablette → desktop */
+  .container-page {
+    @apply mx-auto w-full max-w-page px-4 md:px-6 lg:px-8;
+  }
+
+  /* Boutons : hauteur minimale 44px = zone tactile recommandée (WCAG 2.5.5 / Apple HIG) */
+  .btn {
+    @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-full px-5 py-2 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-60;
+  }
+  .btn-primary {
+    @apply bg-gold text-ink hover:bg-gold-light;
+  }
+  .btn-outline {
+    @apply border border-white/30 text-sand hover:border-gold hover:text-gold;
+  }
+
+  /* Bouton-icône carré 44×44 (zone tactile minimale) */
+  .icon-btn {
+    @apply relative inline-flex h-11 w-11 items-center justify-center rounded-full text-sand transition-colors hover:text-gold;
+  }
+
+  /* Champ de formulaire : ≥ 44px de haut, police 16px (voir règle iOS ci-dessus), contour bien visible */
+  .field {
+    @apply min-h-[44px] w-full rounded-lg border border-white/30 bg-surface-2 px-3 py-2 text-base text-sand placeholder:text-sand-muted;
+  }
+  .field[aria-invalid='true'] {
+    @apply border-red-400;
+  }
+
+  /*
+    EFFET « VERRE DÉPOLI » (micro-dock, en-tête) : fond semi-transparent + flou de l'arrière-plan.
+    On fournit -webkit-backdrop-filter pour Safari / iOS ; Autoprefixer le fait aussi, mais on l'écrit
+    explicitement pour que ce soit lisible dans le code.
+    Repli : si backdrop-filter n'est pas supporté, le fond reste assez opaque (88 %) pour garder le contraste.
+  */
+  .glass {
+    background-color: rgba(15, 15, 15, 0.88);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+    backdrop-filter: blur(16px) saturate(140%);
+  }
+}

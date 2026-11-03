@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "perles-amethyste",
+    "name": "Perles d'améthyste",
+    "kind": "Matériau",
+    "origin": "Madagascar, montage à Foumban (Cameroun)",
+    "summary": "Une pierre violette apaisante, choisie perle par perle.",
+    "description": "L'améthyste est une variété violette de quartz. Les perles utilisées par l'atelier d'Esther Mbarga sont taillées à Madagascar, puis triées à la main : seules celles dont la couleur est homogène sont retenues.",
+    "care": "Évitez l'exposition prolongée au soleil, qui peut atténuer la couleur, et rangez le bijou à plat, à l'abri de l'humidité.",
+    "image": "/images/materials/perles-amethyste",
+    "imageAlt": "Perles d'améthyste violettes en gros plan sur un fil doré (image d'illustration)"
+  },
+  {
+    "slug": "tissage-de-perles",
+    "name": "Tissage de perles",
+    "kind": "Technique",
+    "origin": "Foumban, région de l'Ouest (Cameroun)",
+    "summary": "Des milliers de petites perles de verre assemblées au fil, rang après rang.",
+    "description": "Le tissage de perles consiste à passer de minuscules perles de verre sur un fil, rang par rang, pour former une surface souple. Un collier plastron peut demander plus de soixante heures de travail.",
+    "care": "Séchez le bijou avec un chiffon doux s'il est mouillé et évitez de le plier fortement.",
+    "image": "/images/materials/tissage-de-perles",
+    "imageAlt": "Gros plan sur un tissage de perles de verre colorées, rang après rang (image d'illustration)"
+  },
+  {
+    "slug": "verre-recycle-souffle",
+    "name": "Verre recyclé soufflé",
+    "kind": "Matériau",
+    "origin": "Dar es Salaam (Tanzanie)",
+    "summary": "Des bouteilles collectées, refondues puis soufflées à la bouche.",
+    "description": "Les bouteilles collectées dans les quartiers de Dar es Salaam sont lavées, triées par couleur, puis refondues dans un four à bois. Le souffleur façonne ensuite chaque pièce au bout d'une canne, sans moule : aucune n'est identique.",
+    "care": "Lavez à la main à l'eau tiède. Évitez les chocs thermiques (eau bouillante) et le lave-vaisselle.",
+    "image": "/images/materials/verre-recycle-souffle",
+    "imageAlt": "Verre recyclé bleu-vert soufflé à la main, reflets de lumière (image d'illustration)"
+  },
+  {
+    "slug": "sculpture-sur-bois",
+    "name": "Sculpture sur bois",
+    "kind": "Technique",
+    "origin": "Bonwire, région d'Ashanti (Ghana)",
+    "summary": "Du bois local taillé à la main puis ciré à l'abeille.",
+    "description": "Kwame Asante sculpte des arbres tombés naturellement ou issus de plantations gérées. Chaque pièce est taillée à l'herminette puis poncée et cirée à la cire d'abeille, qui laisse apparaître le veinage.",
+    "care": "Essuyez avec un chiffon sec. Une fois par an, nourrissez le bois avec un peu de cire d'abeille.",
+    "image": "/images/materials/sculpture-sur-bois",
+    "imageAlt": "Mains en train de sculpter un morceau de bois clair, copeaux sur l'établi (image d'illustration)"
+  },
+  {
+    "slug": "tissage-bandes-coton",
+    "name": "Tissage en bandes de coton",
+    "kind": "Technique",
+    "origin": "Bonwire, région d'Ashanti (Ghana)",
+    "summary": "Des bandes étroites tissées sur métier, puis cousues côte à côte.",
+    "description": "Le tissage se fait sur un métier étroit : on obtient des bandes de quelques centimètres de large, que l'on assemble ensuite pour former une écharpe, un sac ou une grande pièce. Les couleurs sont choisies bande par bande.",
+    "care": "Lavage à la main à l'eau froide, séchage à plat, à l'ombre.",
+    "image": "/images/materials/tissage-bandes-coton",
+    "imageAlt": "Bandes de coton tissées de couleurs chaudes, juxtaposées sur un métier (image d'illustration)"
+  }
+]
